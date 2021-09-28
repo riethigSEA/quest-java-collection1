@@ -39,7 +39,7 @@ public class Thanos {
         // TODO 5 : Keep only the half of the list
         int range = heroList.size();
         for(int i = 0; i <  range / 2; i++){
-            System.out.println(heroList.size());
+
             heroList.remove(i);
         }
         // TODO 6 : Loop throughout the list and display the name of the remaining heroes
